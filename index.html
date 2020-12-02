@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <div class="calculator">
+    <input type="text" class="display" />
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <button type="button" class="operator">+</button>
+          </td>
+          <td>
+            <button type="button" class="operator">-</button>
+          </td>
+          <td>
+            <button type="button" class="operator">*</button>
+          </td>
+          <td>
+            <button type="button" class="operator">/</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" class="digit">7</button>
+          </td>
+          <td>
+            <button type="button" class="digit">8</button>
+          </td>
+          <td>
+            <button type="button" class="digit">9</button>
+          </td>
+          <td>
+            <button type="button" class="clear">C</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" class="digit">4</button>
+          </td>
+          <td>
+            <button type="button" class="digit">5</button>
+          </td>
+          <td>
+            <button type="button" class="digit">6</button>
+          </td>
+          <td rowspan="3">
+            <button type="button" class="operator" style="height: 124px;">=</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" class="digit">1</button>
+          </td>
+          <td>
+            <button type="button" class="digit">2</button>
+          </td>
+          <td>
+            <button type="button" class="digit">3</button>
+          </td>
+          <!-- <td>
+            <button type="button"></button>
+          </td> -->
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="button" class="digit" style="width: 100%;">0</button>
+          </td>
+          <td>
+            <button type="button" class="decimal">.</button>
+          </td>
+          <!-- <td></td>
+          <td></td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
